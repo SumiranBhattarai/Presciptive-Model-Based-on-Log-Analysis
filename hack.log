@@ -1,0 +1,12 @@
+javax.security.auth.login.FailedLoginException: [Security:090304]Authentication Failed: User OracleSystemUser 
+javax.security.auth.login.FailedLoginException: [Security:090302]Authentication Failed: User OracleSystemUser denied
+2013-07-13 00:46:07 192.168.2.105 POST xxx.wsdl 80 - 192.168.2.105 ksoup2-android/2.6.0+ 200 0 0 977
+2013-07-13 00:46:07 192.168.2.105 POST xxx.wsdl 80 - 192.168.2.105 lcsoap android/2.6.0 200 0 0 166 
+13:06:28,586 ERROR APP - Error in CWSendMail.sendMessage(). Could not send email. Here is the exception: javax.mail.SendFailedException: Sending failed; nested exception is: class javax.mail.MessagingException: Could not connect to SMTP host: CWIEX1, port: 25; nested exception is: java.net.SocketException: Software caused connection abort: connect
+07:08:31 up 2:41, 1 user, load average: 0.00, 0.00, 0.00 Tasks: 322 total, 2 running, 320 sleeping, 0 stopped, 0 zombie %Cpu(s): 10.0 us, 15.0 sy, 0.0 ni, 97.8 id, 0.0 wa, 5.0 hi, 0.0 si, 0.0 st MiB Mem : 3709.4 total, 1483.1 free, 1402.0 used, 824.4 buff/cache MiB Swap: 2048.0 total, 2048.0 free, 0.0 used. 2053.4 avail Mem 
+2019-04-15T16:29:09.507 [3347]DEBUG:vmware.appliance.update.update_functions:Exception happens while sending message to microservice: ConnectionRefusedError(111, 'Connection refused')
+2019-04-15T16:29:09.507 [3347]INFO:vmware.appliance.update.update_functions:Timeout happens while sending message to microservice
+2019-04-15T16:29:09.507 [3347]ERROR:vmware.vapi.provider.local:Error in invoking com.vmware.appliance.update.pending in precheck - Timeout happens while sending message to microservice
+2021-05-12 11:20:12 Warning: DB connections used - 50 out of 100
+2021-05-12 14:50:48 Warning: DB connections used - 70 out of 100
+2021-05-12 23:31:00 Error: com.sap.engine.services.dbpool.exceptions.BaseResourceException: SQLException is thrown by the pooled connection: com.sap.sql.log.OpenSQLException: No connection to data source xxxxx available. All 100 pooled connections are in use and 10 connection requests are currently waiting. The connection pool size might need to be adjusted.
